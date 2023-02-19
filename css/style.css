@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  align-items: center;
+  display: flex;
+  height: inherit;
+  justify-content: center;
+}
+
+.design-calc{
+  background-color: rgba(0, 0, 0, 0.33);
+  padding: 30px 35px;
+  border-radius: 1rem;
+}
+
+.calc{
+  background-color: rgba(240, 248, 255, 0.637);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  text-align: right;
+  font-size: 30px;
+}
+
+.btn-calc{
+  background-color: #313131;
+  color: white;
+  width: 60px;
+  padding: 6px 0px;
+  border-radius: 60px;
+  text-align: center;
+  font-size: 30px;
+  transition: 0.2s;
+  margin-bottom: 0.2rem;  border: none;
+}
+
+.derechos{
+  color: white ;
+}
+
+.btn-calc-disable{
+  background-color: #151515;
+  color: white;
+  width: 60px;
+  padding: 6px 0px;
+  border-radius: 60px;
+  text-align: center;
+  font-size: 30px;   border: none;
+}
+
+.btn-calc:hover{
+  background-color: #7a7a7a;
+}
+
+.btn-calc:active{
+  background-color: #3f3f3f;
+}
+
+.btn-calc:last-child{
+  background-color: #F69906;
+}
+
+.btn-calc:last-child:hover{
+  background-color: #f2b24b;   border: none;
+}
+
+.btn-calc:last-child:active{
+  background-color: #a16300;
+}
+
+.double{
+  padding-right: 4.1rem;
+  text-align: center;
+}
