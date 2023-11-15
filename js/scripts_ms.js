@@ -24,8 +24,7 @@ function Simbolo(sim) {
 			if (operador === null) {
 				return;
 			}
-			if (totalOperacion === 0 || almacenamiento === '0' ){
-				almacenamiento = '0';
+			if (almacenamiento === '0' ){
 				totalOperacion = 0;
 			}
 			operacionMat(parseInt(almacenamiento));
